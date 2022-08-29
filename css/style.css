@@ -1,0 +1,51 @@
+/*reset*/
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+  body{
+    background-image: url(/sources/images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  main h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 5vw;
+    text-align: center;
+  }
+  main h2{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;    
+    text-align: center;
+  }
+  main h3{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;    
+    text-align: center;
+  }
+  main p{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;    
+    text-shadow: black 0.1em 0.1em 0.2em;    
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    padding: 2vw;
+  }
